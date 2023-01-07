@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  btc:
+    image: freewil/bitcoin-testnet-box
+    ports:
+      - "19001:19001"
+      - "19000:19000"
